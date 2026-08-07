@@ -547,7 +547,7 @@ function FloatingWhatsApp() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat WhatsApp Kembar Trans"
-      className="fixed bottom-5 right-5 z-50 inline-flex items-center gap-2 rounded-full bg-[oklch(0.68_0.17_150)] px-5 py-3.5 font-bold text-brand-foreground shadow-float transition-transform hover:scale-105"
+      className="fixed bottom-5 right-5 z-50 inline-flex items-center gap-2 rounded-full bg-whatsapp px-5 py-3.5 font-bold text-brand-foreground shadow-float transition-transform hover:scale-105"
     >
       <MessageCircle className="size-5" aria-hidden="true" />
       <span className="hidden sm:inline">Reservasi</span>
