@@ -113,7 +113,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Jadwal rutin 09.00 & 16.00 WIB, antar-jemput sampai alamat, armada nyaman. Reservasi via WhatsApp atau telepon.",
+          "Travel shuttle Pacitan–Solo dengan layanan antar-jemput alamat. Berangkat setiap hari 09.00 & 16.00 WIB. Reservasi cepat via WhatsApp 0818-0339-2334.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },

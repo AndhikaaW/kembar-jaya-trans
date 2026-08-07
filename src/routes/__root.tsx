@@ -77,15 +77,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Kembar Trans — Travel Pacitan–Solo" },
+      { title: "Kembar Trans — Travel Pacitan–Solo Antar-Jemput Setiap Hari" },
       {
         name: "description",
         content:
-          "Travel shuttle Pacitan–Solo dengan antar-jemput alamat, jadwal harian 09.00 & 16.00 WIB.",
+          "Travel shuttle Pacitan–Solo dengan layanan antar-jemput alamat. Berangkat setiap hari 09.00 & 16.00 WIB. Reservasi cepat via WhatsApp 0818-0339-2334.",
       },
       { property: "og:site_name", content: "Kembar Trans" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Kembar Trans — Travel Pacitan–Solo Antar-Jemput Setiap Hari" },
+      { name: "twitter:title", content: "Kembar Trans — Travel Pacitan–Solo Antar-Jemput Setiap Hari" },
+      { property: "og:description", content: "Travel shuttle Pacitan–Solo dengan layanan antar-jemput alamat. Berangkat setiap hari 09.00 & 16.00 WIB. Reservasi cepat via WhatsApp 0818-0339-2334." },
+      { name: "twitter:description", content: "Travel shuttle Pacitan–Solo dengan layanan antar-jemput alamat. Berangkat setiap hari 09.00 & 16.00 WIB. Reservasi cepat via WhatsApp 0818-0339-2334." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/8e577349-2a3c-4513-846d-a7df03cce71f" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/8e577349-2a3c-4513-846d-a7df03cce71f" },
     ],
     links: [
       {
@@ -98,7 +104,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
   }),
 
