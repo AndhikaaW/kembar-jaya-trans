@@ -530,6 +530,16 @@ function Footer() {
               </a>
             </li>
             <li className="text-muted-foreground">Jam layanan: 07.00 – 20.00 WIB</li>
+            <li className="flex items-start gap-2 text-muted-foreground">
+              <MapPin className="mt-0.5 size-4 shrink-0" aria-hidden="true" />
+              <span>
+                Titik jemput: Pacitan – Solo PP (antar-jemput alamat).
+                <br />
+                {/* TODO: ganti alamat dummy di bawah dengan alamat kantor asli */}
+                Kantor: Jl. Contoh No. 1, Pacitan (alamat sementara)
+              </span>
+            </li>
+
           </ul>
         </div>
       </div>
