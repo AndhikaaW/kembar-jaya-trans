@@ -2,11 +2,18 @@
 <html lang="id">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=/" />
-    <script>
-      window.location.replace("/");
-    </script>
     <title>Kembar Trans</title>
+    <script>
+      // Single page app di GitHub Pages: semua 404 diarahkan ke root SPA.
+      // Base path dihitung dari URL sekarang sehingga tetap benar jika repo di-rename.
+      (function (loc) {
+        var path = loc.pathname;
+        var base = path.substring(0, path.lastIndexOf("/") + 1);
+        if (path === base) return; // sudah di base (index.html harusnya di sini)
+        if (base === "/") loc.replace(path + "/"); // "/repo" -> "/repo/"
+        else loc.replace(base); // "/repo/xyz" -> "/repo/"
+      })(window.location);
+    </script>
   </head>
   <body></body>
 </html>
